@@ -1,4 +1,3 @@
 # studyBuddy
 
 hello world
-hi

@@ -1,5 +1,4 @@
 # studyBuddy
 
-hello everyone!!
-hello world
+hello world!!!
 

@@ -22,7 +22,7 @@ from cfehome.views import test
 
 
 urlpatterns = [
-    path('', test),
+    path('home/', test),
     path('admin/', admin.site.urls),
     path('base/', include('base.urls'))
 ]

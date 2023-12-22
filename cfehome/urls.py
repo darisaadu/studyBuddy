@@ -18,11 +18,10 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
-from cfehome.views import test
+
 
 
 urlpatterns = [
-    path('home/', test),
     path('admin/', admin.site.urls),
     path('base/', include('base.urls'))
 ]

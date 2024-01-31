@@ -89,6 +89,18 @@ WSGI_APPLICATION = 'cfehome.wsgi.application'
 # }
 
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'backendcourse',
+        'USER': 'mysuperuser',
+        'PASSWORD': 'mysuperuser',
+        'HOST': 'backendcourse.cz62kwk2uvh1.eu-north-1.rds.amazonaws.com',
+        'PORT': '5432',
+    }
+}
+
+
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 

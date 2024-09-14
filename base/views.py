@@ -13,7 +13,6 @@ from django.contrib.auth.decorators import login_required
 
 
 def loginPage(request):
-    # this is login view
     page = 'login'
 
     if request.user.is_authenticated:

@@ -4,6 +4,8 @@ from django.contrib import messages
 
 from django.db.models import Q
 from .models import Room, Topic, Message, User
+
+
 from . forms import RoomForm, UserForm, MyUserCreationForm
 
 from django.contrib.auth import authenticate, login, logout
@@ -11,6 +13,7 @@ from django.contrib.auth.decorators import login_required
 
 
 def loginPage(request):
+    # this is login view
     page = 'login'
 
     if request.user.is_authenticated:
@@ -196,3 +199,4 @@ def topicsPage(request):
 def activityPage(request):
     room_messages = Message.objects.all()
     return render(request, 'base/activity.html', {'room_messages': room_messages})
+    

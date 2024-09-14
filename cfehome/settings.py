@@ -89,13 +89,25 @@ WSGI_APPLICATION = 'cfehome.wsgi.application'
 # }
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'awsdj',
+#         'USER': 'adminuser',
+#         'PASSWORD': 'mysuperuser',
+#         'HOST': 'awsdj.chqeqaeamd07.us-east-1.rds.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'backendcourse',
-        'USER': 'mysuperuser',
-        'PASSWORD': 'mysuperuser',
-        'HOST': 'backendcourse.cz62kwk2uvh1.eu-north-1.rds.amazonaws.com',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '1991',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
